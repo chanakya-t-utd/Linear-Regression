@@ -4,8 +4,7 @@ library(dummies)
 cost_hist<-0
 error_hist<-0
 #Read data set
-df <- read.csv("/000_UTD/Sem_3/3_MachineLearning/Project_1/Bike-Sharing-Dataset/hour.csv",header = TRUE)
-setwd("/000_UTD/Sem_3/3_MachineLearning/Project_1")
+df <- read.csv("./hour.csv",header = TRUE)
 #Dummy Variable creation : 
 df <- cbind(df, dummy(df$season, sep = "_"))
 colnames(df) [18] <- "Spring"
