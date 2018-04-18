@@ -1,5 +1,4 @@
-#Machine Learning Project 1
-#Chanakya Thunuguntla - cxt162230
+#Load required libraries
 library(Hmisc)
 library(dummies)
 cost_hist<-0
